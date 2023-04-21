@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     margin-inline: auto;
@@ -289,9 +290,47 @@ colors
         height: 100px;
         
     }
+    
 
 }
+@media screen and (max-width:575px){
+    .blue-btn{
+      
+        height: 3px;
+        width: 40px;
+        margin: 0;
+        
+    }
+    .black-btn{
+        
+        height: 3px;
+        width: 40px;
+        margin: 0;
+    }
+    .cream-btn{
+       
+        height: 3px;
+        width: 40px;
+        margin: 0;
+    }
+    .olive-btn{
+       
+       
+        height: 3px;
+        width: 40px;
+        margin: 0;
+    }
+    .pink-btn{
+        
+        
+        height: 3px;
+        width: 40px;
+        margin: 0;
+    }
 
+    
+    
+}
 
 /* *********
 Anime
@@ -464,20 +503,61 @@ Feature2 GPS
 }
 
 
-@media screen and (min-width:992px){
-        .lower_texts{
-            margin-right: 250px;
-        }
-}
+
 
 
 @media screen and (max-width:576px){
     .gps{
-        height: 75vh;
-        background-size: 75vh;
+        height: 29vh;
+        /* background-size: 50vh; */
+        background-size: contain;
+    }
+
+
+    .upper_texts h2{
+        font-size: 15px;
+        margin-right: 50vw;
+    }
+    .upper_texts h4{
+        font-size: 8px;
+    
+    }
+
+    .lower_texts p{
+        font-size: 8px;
+        margin-right: 50vw;
     }
 }
+ @media screen and (min-width:577px)and (max-width:992px){
+    .gps{
+        height: 50vh;
+        background-size: contain;
+    }
+    .upper_texts h2{
+        margin-top: 5vh;
+        font-size: 15px;
+        margin-right: 50vw;
+    }
+    .upper_texts h4{
+        font-size: 8px;
+    
+    }
 
+    .lower_texts p{
+        font-size: 8px;
+        margin-right: 50vw;
+        margin-bottom: 15vh;
+    }
+}
+    @media screen and (min-width:992px){
+        .lower_texts{
+            margin-right: 250px;
+        }
+        .gps{
+            height: 75vh;
+        }
+}
+ 
 /* ************
 Feature3 sleep 
 ************ */
@@ -508,7 +588,7 @@ Feature4 heart
     background: url(./images/img12.png) no-repeat;
     background-size: contain;
     background-position: bottom;
-    height: 300px;
+    
 }
 
 @media screen and (min-width:992px){
@@ -516,15 +596,39 @@ Feature4 heart
         /* color: white; */
         padding-top: 0;
         padding-bottom: 0;
-        height: 500px;
+        height: 73vh;
+    }
+    .heart_div h4{
+        margin-bottom: 60vh;
     }
 }
-@media screen and (min-width:576px){
+@media screen and (min-width:576px) and (max-width:991px){
     .heart_div{
         /* color: white; */
         padding-top: 0;
         padding-bottom: 0;
-        height: 300px;
+        height: 50vh;
+        /* margin-bottom: 90vh; */
+    }
+  
+
+}
+@media screen and (max-width:575px){
+    .heart_div{
+        /* color: white; */
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 35vh;
+        
+        /* margin-bottom: 90vh; */
+    }
+
+    .heart_div h2{
+        font-size: 2vh;
+        margin-top: 6vh;
+    }
+    .heart_div h4{
+        font-size: 1.5vh;
     }
 }
 
@@ -535,35 +639,93 @@ video*
 ************ */
 
 
-.vid{
+/* .vid{
     width: fit-content;
     
 }
 
 .vid-div video{
     margin-left: 66px;
-}
+} */
 /* 
 .vid_container{
     background: url(./images/Featues.mp4);
 } */
 
-@media  screen and (min-width:576px) {
-    .vid video{
-        width:550px;
-        margin-left: 0;
-    }
-}
-
-
-/* *************
-mobile view
-
-************* */
-
 @media screen and (max-width:575px){
     
     .vid_container{
-        width: 100vw;
+       margin-top: 5vh;
+        height: 50vh;
+        /* margin-left: 2vh; */
     }
+    .vid_container  h2{
+        font-size: 2vh;
+    }
+    .vid_container h3{
+       font-size: 2vh;
+    }
+    .vid_container h4{
+        font-size: 2vh;
+        
+    }
+
+    .vid-div video{
+        height: 35vh;
+        width: 50vh;
+        
+    }
+
 }
+
+@media  screen and (min-width:576px) and (max-width:992px) {
+    .vid_container{
+        margin-top: 5vh;
+         height: 50vh;
+         /* margin-left: 2vh; */
+     }
+     .vid_container  h2{
+         font-size: 2vh;
+     }
+     .vid_container h3{
+        font-size: 2vh;
+     }
+     .vid_container h4{
+         font-size: 2vh;
+         
+     }
+ 
+     .vid-div video{
+         height: 35vh;
+         margin-left: 20vh;
+         
+     }
+    
+}
+@media  screen and (min-width:992px)  {
+    .vid_container{
+        margin-top: 5vh;
+         height: 80vh;
+         margin-left: 2vh;
+     }
+     .vid_container  h2{
+         font-size: 5vh;
+     }
+     .vid_container h3{
+        font-size: 4vh;
+     }
+     .vid_container h4{
+         font-size: 3vh;
+         
+     }
+ 
+     .vid-div video{
+         height: 60vh;
+         margin-left: 10vw;
+         width:70vw;
+         
+     }
+    
+}
+
+
