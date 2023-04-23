@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
-body{
+
+body {
     margin-inline: auto;
-    overflow-x:hidden;
+    overflow-x: hidden;
     /* border:solid black; */
 }
 
@@ -13,21 +14,22 @@ body{
 /* *************
 Navbar
 *********** */
-.navbar{
+.navbar {
     /* position: fixed; */
     box-sizing: border-box;
     /* position: absolute; */
 }
-.navbar-nav{
+
+.navbar-nav {
     margin-left: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-   
-    
+
+
 }
 
-.nav-link:hover{
+.nav-link:hover {
     transform: scale(1.1);
 }
 
@@ -54,291 +56,295 @@ Main
 
 
 
-
-
-
 /* *************
 specs
 *********** */
-.specs{
+
+
+.specs {
     margin: auto;
-    height: 100vh;
-    background: linear-gradient(180deg,rgb(234, 139, 234),white);
+ 
+    background: linear-gradient(180deg, rgb(234, 139, 234), white);
     border-radius: 10px;
-   
+
 
 }
 
-.row1-col1{
+.row1-col1 {
     background: url(./images/2/img02-1.png) no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 10px;
     padding: 1vw;
     margin: 1vw;
     display: flex;
-  justify-content: center;
-  align-items:flex-end;
-  font-weight: bold;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
 }
-.row1-col2{
+
+.row1-col2 {
     background: url(./images/2/img02-2.png) no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: 60% 10%;
     border-radius: 10px;
     padding: 1vw;
     margin: 1vw;
     display: flex;
-  justify-content: center;
-  align-items:flex-end;
-  font-weight: bold;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
 
 }
-.row2-col1{
+
+.row2-col1 {
     background: url(./images/2/img02-3.png) no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 10px;
     padding: 1vw;
     margin: 1vw;
     display: flex;
-  justify-content: center;
-  align-items:flex-end;
-  font-weight: bold;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
 }
-.row2-col2{
+
+.row2-col2 {
     background: url(./images/2/img02-4.png) no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 25px;
     padding: 1vw;
     margin-right: 1vw;
     margin-left: 1vw;
     display: flex;
-  justify-content: center;
-  align-items:flex-end;
-  font-weight: bold;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
 }
-.row2-col3{
+
+.row2-col3 {
     background: url(./images/2/img02-5.png) no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 10px;
     padding: 1vw;
     margin-right: 1vw;
     display: flex;
-  justify-content: center;
-  align-items:flex-end;
-  font-weight: bold;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
 }
-.row3-col1{
+
+.row3-col1 {
     background: url(./images/2/img02-6.png) no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: 10% 10%;
     border-radius: 10px;
     padding: 1vw;
     margin: 1vw;
     display: flex;
-  justify-content: center;
-  align-items:flex-end;
-  font-weight: bold;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
 }
-.row3-col2{
+
+.row3-col2 {
     background: url(./images/2/img02-5.png) no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 10px;
     padding: 1vw;
     margin: 1vw;
     display: flex;
-  justify-content: center;
-  align-items:flex-end;
-  font-weight: bold;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
 }
 
-.row1-col1:hover{
+.row1-col1:hover {
     transform: scale(1.1);
 }
-.row1-col2:hover{
+
+.row1-col2:hover {
     transform: scale(1.1);
 }
-.row2-col1:hover{
+
+.row2-col1:hover {
     transform: scale(1.1);
 }
-.row2-col2:hover{
+
+.row2-col2:hover {
     transform: scale(1.1);
 }
-.row2-col3:hover{
+
+.row2-col3:hover {
     transform: scale(1.1);
 }
-.row3-col1:hover{
+
+.row3-col1:hover {
     transform: scale(1.1);
 }
-.row3-col2:hover{
+
+.row3-col2:hover {
     transform: scale(1.1);
 }
+
 
 /* **********
 Flaunt 
 ********* */
 
-.flaunt-container{
+
+.flaunt-container {
     background: url(./images/img03.png)no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-  
- align-items:center;
-  font-weight: bold;
-  flex-direction: column;
- 
+
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+
 }
-.flaunt-container h2{
+
+.flaunt-container h2 {
     margin-top: 3vh;
-  
+
 }
-.flaunt-container p{
+
+.flaunt-container p {
     margin-top: 30vh;
-    
-}
-@media screen and (min-width:992px){
-    .flaunt-container :first-child{
-        margin-top: 0%;
-       
-    }
-    .flaunt-container p{
-        margin-top: 20%;
-       
-    }
+
 }
 
 /* **********
 colors 
 ********* */
 
-.blue-btn{
+.blue-btn {
     background: blue;
-  
+
     height: 3px;
     width: 50px;
     margin: 0;
-    
+
 }
-.black-btn{
+
+.black-btn {
     background: black;
-   
-    height: 3px;
-    width: 50px;
-    margin: 0;
-}
-.cream-btn{
-    background: #DAC0A7;
-   
-    height: 3px;
-    width: 50px;
-    margin: 0;
-}
-.olive-btn{
-    background: olive;
-   
-    height: 3px;
-    width: 50px;
-    margin: 0;
-}
-.pink-btn{
-    background: pink;
-    
+
     height: 3px;
     width: 50px;
     margin: 0;
 }
 
-.colors-button a:hover{
-    
-        text-decoration: none;
-        background-color: transparent !important;
-   
+.cream-btn {
+    background: #DAC0A7;
+
+    height: 3px;
+    width: 50px;
+    margin: 0;
 }
-.colors-button a{
+
+.olive-btn {
+    background: olive;
+
+    height: 3px;
+    width: 50px;
+    margin: 0;
+}
+
+.pink-btn {
+    background: pink;
+
+    height: 3px;
+    width: 50px;
+    margin: 0;
+}
+
+.colors-button a:hover {
+
+    text-decoration: none;
+    background-color: transparent !important;
+
+}
+
+.colors-button a {
     text-decoration: none;
 }
-.color-title{
-    font-size:2rem ;
+
+.color-title {
+    font-size: 2rem;
 }
 
-.color-img{
+.color-img {
     overflow: hidden;
 }
-.color-img img{
+
+.color-img img {
     padding: 4.5vw;
     transform: scale(1.5);
-    
+
 }
 
-.color-img img:hover{
+.color-img img:hover {
     transform: scale(2);
     cursor: pointer;
     /* padding-right: 0; */
     /* margin-right: 0; */
-    
-}
-
-@media screen and (min-width:576px){
-    .color-img{
-       
-        overflow: hidden;
-    }
-    
-    .color-img img{
-        /* width: 100px; */
-       
-        height: 100px;
-        
-    }
-    
 
 }
-@media screen and (max-width:575px){
-    .blue-btn{
-      
+
+
+@media screen and (max-width:575px) {
+    .blue-btn {
+
         height: 3px;
-        width: 40px;
+        width: 30px;
         margin: 0;
-        
+
     }
-    .black-btn{
-        
+
+    .black-btn {
+
         height: 3px;
-        width: 40px;
-        margin: 0;
-    }
-    .cream-btn{
-       
-        height: 3px;
-        width: 40px;
-        margin: 0;
-    }
-    .olive-btn{
-       
-       
-        height: 3px;
-        width: 40px;
-        margin: 0;
-    }
-    .pink-btn{
-        
-        
-        height: 3px;
-        width: 40px;
+        width: 30px;
         margin: 0;
     }
 
-    
-    
+    .cream-btn {
+
+        height: 3px;
+        width: 30px;
+        margin: 0;
+    }
+
+    .olive-btn {
+
+
+        height: 3px;
+        width: 30px;
+        margin: 0;
+    }
+
+    .pink-btn {
+
+
+        height: 3px;
+        width: 30px;
+        margin: 0;
+    }
+
+
+
 }
+
+
 
 /* *********
 Anime
 *********** */
 
-.anime-class{
+.anime-class {
     /* background: url(./images/img05-3.png) no-repeat; */
-    background-color: lineargradient(180deg,rgb(105, 27, 105),rgb(36, 30, 30));
+    background-color: lineargradient(180deg, rgb(105, 27, 105), rgb(36, 30, 30));
     background-size: cover;
     display: flex;
     align-items: center;
@@ -347,11 +353,12 @@ Anime
     overflow: hidden;
     position: relative;
     /* border: solid black; */
-    
-    
+
+
 
 }
-.image-anime{
+
+.image-anime {
     padding: 0;
     /* margin: 100px; */
     max-width: inherit;
@@ -362,129 +369,118 @@ Anime
     position: absolute;
 
 }
+
 .text_anime {
     position: absolute;
     margin-top: 10vh;
 }
-#circular-watch{
+
+#circular-watch {
     animation: rotate-watch 20s linear infinite;
 }
 
-.text_anime h2{
+.text_anime h2 {
     font-size: 3.5vh;
 }
-.text_anime h4{
+
+.text_anime h4 {
     font-size: 3vh;
 }
 
-@media screen and (min-width:992px){
-    
-    .image-anime img{
-        position: relative;
-        padding: 0;
-        height: 500px;
-        
-        object-position: 50% 50%;
-        width: 100%;
-        /* margin-top: 80%; */
-          animation: rotate-watch 24s ease-out infinite both;
-
-    }
-
-    .text_anime h2{
-        font-size: 6vh;
-    }
-    .text_anime h4{
-        font-size: 4vh;
-    }
-    .text_anime p{
-        font-size: 3vh;
-    }
-}
-
 @keyframes rotate-watch {
-    100%{
+    100% {
         transform: rotate(360deg);
     }
 }
 
 @media screen and (max-width:576px){
-
-    .text_anime h2{
-        font-size: 2vh;
+    .text_anime h2 {
+        font-size: 11px;
     }
-    .text_anime h4{
-        font-size: 1.5vh;
+    
+    .text_anime h4 {
+        font-size: 10px;
     }
     .text_anime p{
-        font-size: 1.5vh;
+        font-size: 10px;
     }
     .text_anime {
-    margin-top: 5vh;
+        position: absolute;
+        margin-top: 4vh;
+    }
+     
 }
+@media screen and (min-width:577px) and (max-width:992px){
+    .text_anime h2 {
+        font-size: 18px;
+    }
+    
+    .text_anime h4 {
+        font-size: 16px;
+    }
+    .text_anime p{
+        font-size: 14px;
+    }
+    .text_anime {
+        position: absolute;
+        margin-top: 4vh;
+    }
+     
 }
 
-@media screen and (max-width:576px){
-    anime-class{
-        height: 50vh;
-    }
-}
 /* **********
 feature1
 *********** */
 
 
-.feature1{
+.feature1 {
     /* background: url("./images/img07-1.png")no-repeat; */
     background-size: contain;
+   
     /* border: solid black; */
 }
 
 
-.athlete-cont{
+.athlete-cont {
     background: url(./images/img07-5.jpg)no-repeat;
     background-position-y: 0;
     background-position-x: 10%;
-    animation: identifier 15s  infinite;
+    animation: identifier 15s infinite;
     background-size: 150%;
+    /* height: 70vh; */
 }
 
-.athlete img{
-    
-    height:50vh;
-   
-}
 
 @keyframes identifier {
-    0%{
+    0% {
         background-position-x: 0;
     }
 
-    50%{
+    50% {
         background-position-x: 100%;
     }
-    100%{
+
+    100% {
         background-position-x: 0;
     }
 }
 
+
 @media screen and (max-width:576px){
-    .athlete img{
-    
-        height:20vh;
-       
-    }
-    .athlete-texts{
-        margin-top: 5vh;
-    }
-    .athlete-texts h2{
-        font-size: 5vw;
-    }
-    .athlete-texts h4{
+    .athlete-texts h2 {
         font-size: 3vw;
     }
-    .athlete-texts p{
+
+    .athlete-texts h4 {
         font-size: 2.5vw;
+    }
+
+    .athlete-texts p {
+        font-size: 2vw;
+    }
+
+    .athlete-texts{
+        margin-right: 10vw;
     }
 }
 
@@ -493,239 +489,124 @@ feature1
 Feature2 GPS 
 ************ */
 
-.gps{
+.gps {
     background: url(./images/img08-1.jpg)no-repeat;
     background-size: cover;
-
+height: 500px;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
+    
 }
 
+@media screen and (max-width:576px) {
+   .gps{
+    background-size: contain;
+    /* height: 87%; */
+   }
+   .upper_texts h2 {
+    font-size: 15px;
+   
+}
 
+.upper_texts h4 {
+    font-size: 8px;
 
+}
 
+.lower_texts p {
+    font-size: 8px;
+   
+}
+}
+@media screen and (min-width:577px) and (max-width:992px){
+    .gps{
+        background-size: contain;
+        height: 40%;
+    }
+    .upper_texts h2 {
+        font-size: 12px;
+       
+    }
+    
+    .upper_texts h4 {
+        font-size: 10px;
+    
+    }
+    
+    .lower_texts p {
+        font-size: 8px;
+       
+    }
+}
 
 @media screen and (max-width:576px){
     .gps{
-        height: 29vh;
-        /* background-size: 50vh; */
-        background-size: contain;
+        height: 25%;
     }
-
-
-    .upper_texts h2{
-        font-size: 15px;
-        margin-right: 50vw;
+    .upper_texts h2 {
+        font-size: 10px;
+       
     }
-    .upper_texts h4{
+    
+    .upper_texts h4 {
         font-size: 8px;
     
     }
-
-    .lower_texts p{
-        font-size: 8px;
-        margin-right: 50vw;
-    }
-}
- @media screen and (min-width:577px)and (max-width:992px){
-    .gps{
-        height: 50vh;
-        background-size: contain;
-    }
-    .upper_texts h2{
-        margin-top: 5vh;
-        font-size: 15px;
-        margin-right: 50vw;
-    }
-    .upper_texts h4{
-        font-size: 8px;
     
-    }
-
-    .lower_texts p{
+    .lower_texts p {
         font-size: 8px;
-        margin-right: 50vw;
-        margin-bottom: 15vh;
+       
     }
 }
-    @media screen and (min-width:992px){
-        .lower_texts{
-            margin-right: 250px;
-        }
-        .gps{
-            height: 75vh;
-        }
-}
- 
+
+
+
 /* ************
 Feature3 sleep 
 ************ */
 
-.sleep{
+.sleep {
     background: url(./images/img11.jpg)no-repeat;
     background-size: cover;
     position: relative;
 }
-.texts_sleep{
+
+.texts_sleep {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-@media screen and (max-width:992px){
-    .sleep{
+@media screen and (max-width:992px) {
+    .sleep {
         display: none;
     }
 }
+
 
 /* ************
 Feature4 heart 
 ************ */
 
 
-.heart_div{
+.heart_div {
     background: url(./images/img12.png) no-repeat;
     background-size: contain;
     background-position: bottom;
-    
+    height: 450px;
+
 }
 
-@media screen and (min-width:992px){
+@media screen and (max-width:992px){
     .heart_div{
-        /* color: white; */
-        padding-top: 0;
-        padding-bottom: 0;
-        height: 73vh;
-    }
-    .heart_div h4{
-        margin-bottom: 60vh;
+        height: 300px;
     }
 }
-@media screen and (min-width:576px) and (max-width:991px){
+@media screen and (max-width:576px){
     .heart_div{
-        /* color: white; */
-        padding-top: 0;
-        padding-bottom: 0;
-        height: 50vh;
-        /* margin-bottom: 90vh; */
+        height: 250px;
     }
-  
-
-}
-@media screen and (max-width:575px){
-    .heart_div{
-        /* color: white; */
-        padding-top: 0;
-        padding-bottom: 0;
-        height: 35vh;
-        
-        /* margin-bottom: 90vh; */
-    }
-
-    .heart_div h2{
-        font-size: 2vh;
-        margin-top: 6vh;
-    }
-    .heart_div h4{
-        font-size: 1.5vh;
-    }
-}
-
-
-
-/* ************
-video*
-************ */
-
-
-/* .vid{
-    width: fit-content;
-    
-}
-
-.vid-div video{
-    margin-left: 66px;
-} */
-/* 
-.vid_container{
-    background: url(./images/Featues.mp4);
-} */
-
-@media screen and (max-width:575px){
-    
-    .vid_container{
-       margin-top: 5vh;
-        height: 50vh;
-        /* margin-left: 2vh; */
-    }
-    .vid_container  h2{
-        font-size: 2vh;
-    }
-    .vid_container h3{
-       font-size: 2vh;
-    }
-    .vid_container h4{
-        font-size: 2vh;
-        
-    }
-
-    .vid-div video{
-        height: 35vh;
-        width: 50vh;
-        
-    }
-
-}
-
-@media  screen and (min-width:576px) and (max-width:992px) {
-    .vid_container{
-        margin-top: 5vh;
-         height: 50vh;
-         /* margin-left: 2vh; */
-     }
-     .vid_container  h2{
-         font-size: 2vh;
-     }
-     .vid_container h3{
-        font-size: 2vh;
-     }
-     .vid_container h4{
-         font-size: 2vh;
-         
-     }
- 
-     .vid-div video{
-         height: 35vh;
-         margin-left: 20vh;
-         
-     }
-    
-}
-@media  screen and (min-width:992px)  {
-    .vid_container{
-        margin-top: 5vh;
-         height: 80vh;
-         margin-left: 2vh;
-     }
-     .vid_container  h2{
-         font-size: 5vh;
-     }
-     .vid_container h3{
-        font-size: 4vh;
-     }
-     .vid_container h4{
-         font-size: 3vh;
-         
-     }
- 
-     .vid-div video{
-         height: 60vh;
-         margin-left: 10vw;
-         width:70vw;
-         
-     }
-    
 }
 
 
